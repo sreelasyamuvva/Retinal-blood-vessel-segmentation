@@ -46,6 +46,10 @@ Run the training block which:
 - Employs ModelCheckpoint and EarlyStopping callbacks
 Model weights will be saved as DR_UNetmodel.keras.
 
+## 🧠 Using the Pretrained Model
+To skip training and directly use the pretrained model that i attached (unet_model.keras) as inference
+Load 'unet_model.keras' pretrained model to your script
+
 4. **Evaluate & Visualize**
 After training, the model will:
 - Predict segmentation on a test image
