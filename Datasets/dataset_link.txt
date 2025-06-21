@@ -1,0 +1,18 @@
+## 📦 Dataset
+
+This implementation uses the **DRIVE (Digital Retinal Images for Vessel Extraction)** dataset.
+
+You can download it from Kaggle:  
+👉 [Retina DRIVE Dataset on Kaggle](https://www.kaggle.com/datasets/vutu123456/retina-drive-dataset)
+
+After downloading, organize it in the following structure:
+dataset
+|------train
+       |------images
+       |------masks
+|------test
+       |------images
+       |------masks
+
+
+> ⚠️ Note: This code has been tested and evaluated exclusively on the DRIVE dataset. Other datasets may require additional preprocessing and model tuning.
