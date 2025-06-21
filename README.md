@@ -60,6 +60,10 @@ After training, the model will:
 - Ground Truth Mask
 - Predicted Mask
 
+## 📌 Sample Output
+Here's a visualization of the predicted vessel segmentation:
+![Predicted Output](output/Screenshot 2025-06-21 145545.png)
+
 🛠️**Customization**
 - Enable spatial attention by uncommenting the spatial_attention() function and inserting it after the bottleneck layer.
 - Adjust dropout, batch size, learning rate, and threshold for dataset-specific tuning.
